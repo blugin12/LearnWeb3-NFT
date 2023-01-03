@@ -1,0 +1,20 @@
+Terminal:
+npx hardhat run scripts/deploy1.ts --network goerli
+
+0x9aA085E16b2Cb0207dE2E52c2A4F50A2b044ADbe
+
+we can teest on website: opensea testnet
+past on search: 0x9aA085E16b2Cb0207dE2E52c2A4F50A2b044ADbe
+
+
+
+Address NFT verify: 0xcb442e5120441D9DFA78206c6306FE084eDd3272
+
+
+Check address goerli
+-npx hardhat run scripts/deploy1.ts --network goerli
+-0xcb442e5120441D9DFA78206c6306FE084eDd3272
+
+
+Verify goerli by put address goerli in
+-npx hardhat verify --contract contracts/NFTee.sol:NFTee --network goerli 0xcb442e5120441D9DFA78206c6306FE084eDd3272
